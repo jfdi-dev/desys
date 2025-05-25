@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+  aria-hidden="true" role="img" width="32" height="32"
+  preserveAspectRatio="xMidYMid meet" viewBox="0 0 100 100">
+  <defs
+    id="defs1">
+    <filter
+      style="color-interpolation-filters:sRGB"
+      id="filter3"
+      x="-0.26721637"
+      y="-0.2634987"
+      width="1.5344327"
+      height="1.5269974">
+      <feGaussianBlur
+        stdDeviation="3.8189739"
+        id="feGaussianBlur3" />
+    </filter>
+    <filter
+      style="color-interpolation-filters:sRGB"
+      id="filter4"
+      x="-0.26721637"
+      y="-0.2634987"
+      width="1.5344327"
+      height="1.5269974">
+      <feGaussianBlur
+        stdDeviation="3.8189739"
+        id="feGaussianBlur4" />
+    </filter>
+    <filter
+      style="color-interpolation-filters:sRGB"
+      id="filter5"
+      x="-0.26721637"
+      y="-0.2634987"
+      width="1.5344327"
+      height="1.5269974">
+      <feGaussianBlur
+        stdDeviation="3.8189739"
+        id="feGaussianBlur5" />
+    </filter>
+  </defs>
+
+  <g
+    id="layer1">
+    <g
+      id="g9">
+      <rect
+        style="fill:none;stroke:#bf50ff;stroke-width:5.67810301;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers;fill-opacity:1;filter:url(#filter5)"
+        id="rect5"
+        width="45"
+        height="45"
+        x="65"
+        y="5"
+        ry="4.5"
+        transform="matrix(0.86501428,0.50174726,-0.86452824,0.50258422,0,0)" />
+      <rect
+        style="fill:#60275f;stroke:#c55eff;stroke-width:5.67810301;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers;fill-opacity:1"
+        id="rect2-3"
+        width="45"
+        height="45"
+        x="65"
+        y="5"
+        ry="4.5"
+        transform="matrix(0.86501428,0.50174726,-0.86452824,0.50258422,0,0)" />
+    </g>
+    <g
+      id="g8">
+      <rect
+        style="fill:none;stroke:#2df4ff;stroke-width:5.67810301;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers;fill-opacity:1;filter:url(#filter4)"
+        id="rect4"
+        width="45"
+        height="45"
+        x="55"
+        y="-5"
+        ry="4.5"
+        transform="matrix(0.86501427,0.50174725,-0.86452825,0.50258423,0,0)" />
+      <rect
+        style="fill:#19426a;stroke:#34f4ff;stroke-width:5.67810301;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers;fill-opacity:1"
+        id="rect2-9"
+        width="45"
+        height="45"
+        x="55"
+        y="-5"
+        ry="4.5"
+        transform="matrix(0.86501428,0.50174726,-0.86452824,0.50258422,0,0)" />
+    </g>
+    <g
+      id="g7">
+      <rect
+        style="fill:none;stroke:#0dff71;stroke-width:5.67810301;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers;fill-opacity:1;filter:url(#filter3)"
+        id="rect2"
+        width="45"
+        height="45"
+        x="45"
+        y="-15"
+        ry="4.5"
+        transform="matrix(0.86501428,0.50174726,-0.86452824,0.50258422,0,0)" />
+      <rect
+        style="fill:#103915;stroke:#15ff75;stroke-width:5.67810301;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers;fill-opacity:1"
+        id="rect3"
+        width="45"
+        height="45"
+        x="45"
+        y="-15"
+        ry="4.5"
+        transform="matrix(0.86501428,0.50174726,-0.86452824,0.50258422,0,0)" />
+    </g>
+  </g>
+</svg>

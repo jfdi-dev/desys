@@ -1,0 +1,40 @@
+.nav-button {
+  font-family: Pridi;
+  font-size: medium;
+  font-weight: 500;
+  background-color: var(--neutral-shade-1);
+  color: var(--neutral-tint-2);
+  border-radius: 48px;
+  padding: 5px 20px;
+  box-sizing: content-box;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-decoration-color: var(--button-glow);
+  text-underline-offset: 10px;
+}
+
+@keyframes button-underline {
+  to {
+    text-decoration-thickness: 4px;
+    text-underline-offset: 2px;
+  }
+}
+
+.nav-button:hover {
+  cursor: pointer;
+  color: var(--neutral-tint-2);
+
+  animation-name: button-underline;
+  animation-duration: 0.5s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+
+.nav-button:active {
+  cursor: pointer;
+  color: var(--neutral-tint-1);
+
+  animation: none;
+}

@@ -1,0 +1,220 @@
+html {
+  scroll-behavior: smooth;
+}
+
+svg.no-clip {
+  overflow: visible;
+}
+
+@keyframes move-infrastructure {
+  from {
+    transform: translateY(0px);
+    scale: 800%;
+  }
+  to {
+    transform: translateY(300px);
+    scale: 1000%;
+  }
+}
+
+@keyframes move-pipeline {
+  from {
+    transform: translateY(0px);
+    scale: 800%;
+  }
+  to {
+    transform: translateY(200px);
+    scale: 1000%;
+  }
+}
+
+@keyframes move-application {
+  from {
+    transform: translateY(0px);
+    scale: 800%;
+  }
+  to {
+    transform: translateY(100px);
+    scale: 1000%;
+  }
+}
+
+.bois {
+  position: relative;
+}
+
+svg.big-boi {
+  transform-origin: 0px 0px;
+  position: fixed;
+  top: 5em;
+
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+  animation-timing-function: linear;
+  animation-play-state: paused;
+}
+
+svg.infrastructure {
+  translate: -900px;
+  z-index: 1;
+  animation-delay: calc(var(--scroll) * -0.1s);
+  animation-name: move-infrastructure;
+}
+
+svg.pipeline {
+  translate: -900px;
+  z-index: 1;
+  animation-delay: calc(var(--scroll) * -0.1s);
+  animation-name: move-pipeline;
+}
+
+svg.application {
+  translate: -900px;
+  z-index: 1;
+  animation-delay: calc(var(--scroll) * -0.1s);
+  animation-name: move-application;
+}
+
+@keyframes shrink {
+  to {
+    font-size: 0px;
+    opacity: -0.5;
+    margin-bottom: 0;
+  }
+}
+
+@keyframes shrink-hero {
+  to {
+    padding-bottom: 0;
+  }
+}
+
+.shrink {
+  animation: shrink 0.5s;
+  animation-timing-function: cubic-bezier(0, 0, 0.8, 1);
+  animation-iteration-count: 1;
+  animation-play-state: paused;
+  animation-fill-mode: forwards;
+  animation-delay: calc(var(--scroll) * -0.999s);
+  margin-bottom: 5em;
+}
+
+.main-container {
+  max-width: 50%;
+}
+
+section.infrastructure {
+  scroll-margin-top: 25em;
+}
+
+section.pipeline {
+  scroll-margin-top: 30em;
+}
+
+section.application {
+  scroll-margin-top: 15em;
+}
+
+.infrastructure-container {
+  margin-top: 150em;
+  background-color: var(--neutral-shade-0);
+}
+
+.pipeline-container {
+  margin-top: 10em;
+  background-color: var(--neutral-shade-0);
+}
+
+.application-container {
+  margin-top: 10em;
+  background-color: var(--neutral-shade-0);
+}
+
+.explainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding-right: 2em;
+}
+
+.explainer p {
+  width: 50%;
+}
+
+.explainer h2 {
+  z-index: 2;
+  padding: 20px;
+  border-radius: 16px;
+  border-bottom: none;
+  display: inline-block;
+  letter-spacing: 10px;
+  text-decoration-line: underline;
+  text-decoration-thickness: 40px;
+}
+
+.infrastructure-container .explainer h2 {
+  border: solid 1px var(--infrastructure-edge-shade-0);
+  border-top: solid 2px var(--infrastructure-edge-tint-0);
+  background-color: var(--infrastructure-surface-shade-2);
+  text-decoration-color: var(--infrastructure-surface-shade-1);
+}
+
+.pipeline-container .explainer h2 {
+  border: solid 1px var(--pipeline-edge-shade-0);
+  border-top: solid 2px var(--pipeline-edge-tint-0);
+  background-color: var(--pipeline-surface-shade-2);
+  text-decoration-color: var(--pipeline-surface-shade-1);
+}
+
+.application-container .explainer h2 {
+  border: solid 1px var(--application-edge-shade-0);
+  border-top: solid 2px var(--application-edge-tint-0);
+  background-color: var(--application-surface-shade-2);
+  text-decoration-color: var(--application-surface-shade-1);
+}
+
+.application-container {
+  margin-bottom: 30em;
+}
+
+.nav-bar {
+  max-width: 80%;
+  align-self: center;
+}
+
+.main-page {
+  position: relative;
+  background-color: var(--neutral-shade-1);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-container {
+  z-index: 5;
+  width: 100%;
+  position: sticky;
+  top: 0;
+  background-color: var(--neutral-shade-1);
+  padding-bottom: 10em;
+  animation: shrink-hero 0.5s;
+  animation-timing-function: cubic-bezier(0, 0, 0.8, 1);
+  animation-iteration-count: 1;
+  animation-play-state: paused;
+  animation-fill-mode: forwards;
+  animation-delay: calc(var(--scroll) * -0.999s);
+  box-shadow: 0px 20px 15px 0px rgba(from var(--neutral-shade-1) r g b / 0.8);
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 50px;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}

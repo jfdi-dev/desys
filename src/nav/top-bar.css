@@ -1,0 +1,21 @@
+.top-bar {
+  position: fixed;
+  z-index: 500;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: var(--neutral-shade-2);
+  border-bottom: solid 1px var(--neutral-tint-1);
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.top-bar .right {
+  display: flex;
+  flex-direction: row;
+  gap: 2em;
+  margin-right: 50px;
+}

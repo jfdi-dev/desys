@@ -1,0 +1,177 @@
+:root {
+  --application-edge: #15ff75;
+
+  --application-edge-tint-0: #44ff91;
+  --application-edge-tint-1: #73ffac;
+  --application-edge-tint-2: #a1ffc8;
+  --application-edge-tint-3: #d0ffe3;
+
+  --application-edge-shade-0: #11cc5e;
+  --application-edge-shade-1: #0d9946;
+  --application-edge-shade-2: #08662f;
+  --application-edge-shade-3: #043317;
+
+  --application-surface: #103915;
+
+  --application-surface-tint-0: #406144;
+  --application-surface-tint-1: #708873;
+  --application-surface-tint-2: #9fb0a1;
+  --application-surface-tint-3: #cfd7d0;
+
+  --application-surface-shade-0: #0d2e11;
+  --application-surface-shade-1: #0a220d;
+  --application-surface-shade-2: #061708;
+  --application-surface-shade-3: #030b04;
+
+  --pipeline-edge: #34f4ff;
+
+  --pipeline-edge-tint-0: #5df6ff;
+  --pipeline-edge-tint-1: #85f8ff;
+  --pipeline-edge-tint-2: #aefbff;
+  --pipeline-edge-tint-3: #d6fdff;
+
+  --pipeline-edge-shade-0: #2ac3cc;
+  --pipeline-edge-shade-1: #1f9299;
+  --pipeline-edge-shade-2: #156266;
+  --pipeline-edge-shade-3: #0a3133;
+
+  --pipeline-surface: #19426a;
+
+  --pipeline-surface-tint-0: #476888;
+  --pipeline-surface-tint-1: #758ea6;
+  --pipeline-surface-tint-2: #a3b3c3;
+  --pipeline-surface-tint-3: #d1d9e1;
+
+  --pipeline-surface-shade-0: #143555;
+  --pipeline-surface-shade-1: #0f2840;
+  --pipeline-surface-shade-2: #0a1a2a;
+  --pipeline-surface-shade-3: #050d15;
+
+  --infrastructure-edge: #c55eff;
+
+  --infrastructure-edge-tint-0: #d17eff;
+  --infrastructure-edge-tint-1: #dc9eff;
+  --infrastructure-edge-tint-2: #e8bfff;
+  --infrastructure-edge-tint-3: #f3dfff;
+
+  --infrastructure-edge-shade-0: #9e4bcc;
+  --infrastructure-edge-shade-1: #763899;
+  --infrastructure-edge-shade-2: #4f2666;
+  --infrastructure-edge-shade-3: #271333;
+
+  --infrastructure-surface: #60275f;
+
+  --infrastructure-surface-tint-0: #80527f;
+  --infrastructure-surface-tint-1: #a07d9f;
+  --infrastructure-surface-tint-2: #bfa9bf;
+  --infrastructure-surface-tint-3: #dfd4df;
+
+  --infrastructure-surface-shade-0: #4d1f4c;
+  --infrastructure-surface-shade-1: #3a1739;
+  --infrastructure-surface-shade-2: #261026;
+  --infrastructure-surface-shade-3: #130813;
+
+  --neutral: #3a3a3a;
+
+  --neutral-tint-0: #616161;
+  --neutral-tint-1: #898989;
+  --neutral-tint-2: #b0b0b0;
+  --neutral-tint-3: #d8d8d8;
+
+  --neutral-shade-0: #2e2e2e;
+  --neutral-shade-1: #232323;
+  --neutral-shade-2: #171717;
+  --neutral-shade-3: #0c0c0c;
+}
+/* 
+@media (prefers-color-scheme: light) {
+  :root {
+    --application-edge: #4cdf60;
+
+    --application-edge-tint-0: #70e580;
+    --application-edge-tint-1: #94eca0;
+    --application-edge-tint-2: #b7f2bf;
+    --application-edge-tint-3: #dbf9df;
+
+    --application-edge-shade-0: #3db24d;
+    --application-edge-shade-1: #2e863a;
+    --application-edge-shade-2: #1e5926;
+    --application-edge-shade-3: #0f2d13;
+
+    --application-surface: #ccfcd2;
+
+    --application-surface-tint-0: #d6fddb;
+    --application-surface-tint-1: #e0fde4;
+    --application-surface-tint-2: #ebfeed;
+    --application-surface-tint-3: #f5fef6;
+
+    --application-surface-shade-0: #a3caa8;
+    --application-surface-shade-1: #7a977e;
+    --application-surface-shade-2: #526554;
+    --application-surface-shade-3: #29322a;
+
+    --pipeline-edge: #65d5ff;
+
+    --pipeline-edge-tint-0: #84ddff;
+    --pipeline-edge-tint-1: #a3e6ff;
+    --pipeline-edge-tint-2: #c1eeff;
+    --pipeline-edge-tint-3: #e0f7ff;
+
+    --pipeline-edge-shade-0: #51aacc;
+    --pipeline-edge-shade-1: #3d8099;
+    --pipeline-edge-shade-2: #285566;
+    --pipeline-edge-shade-3: #142b33;
+
+    --pipeline-surface: #cbf0ff;
+
+    --pipeline-surface-tint-0: #d5f3ff;
+    --pipeline-surface-tint-1: #e0f6ff;
+    --pipeline-surface-tint-2: #eaf9ff;
+    --pipeline-surface-tint-3: #f5fcff;
+
+    --pipeline-surface-shade-0: #a2c0cc;
+    --pipeline-surface-shade-1: #7a9099;
+    --pipeline-surface-shade-2: #516066;
+    --pipeline-surface-shade-3: #293033;
+
+    --infrastructure-edge: #e274d6;
+
+    --infrastructure-edge-tint-0: #e890de;
+    --infrastructure-edge-tint-1: #eeace6;
+    --infrastructure-edge-tint-2: #f3c7ef;
+    --infrastructure-edge-tint-3: #f9e3f7;
+
+    --infrastructure-edge-shade-0: #b55dab;
+    --infrastructure-edge-shade-1: #884680;
+    --infrastructure-edge-shade-2: #5a2e56;
+    --infrastructure-edge-shade-3: #2d172b;
+
+    --infrastructure-surface: #fdd9f9;
+
+    --infrastructure-surface-tint-0: #fde1fa;
+    --infrastructure-surface-tint-1: #fee8fb;
+    --infrastructure-surface-tint-2: #fef0fd;
+    --infrastructure-surface-tint-3: #fff7fe;
+
+    --infrastructure-surface-shade-0: #caaec7;
+    --infrastructure-surface-shade-1: #988295;
+    --infrastructure-surface-shade-2: #655764;
+    --infrastructure-surface-shade-3: #332b32;
+
+    --neutral: #262626;
+
+    --neutral-tint-0: #515151;
+    --neutral-tint-1: #7d7d7d;
+    --neutral-tint-2: #a8a8a8;
+    --neutral-tint-3: #d4d4d4;
+
+    --neutral-shade-0: #1e1e1e;
+    --neutral-shade-1: #171717;
+    --neutral-shade-2: #0f0f0f;
+    --neutral-shade-3: #080808;
+  }
+} */
+
+button {
+  border: none;
+}

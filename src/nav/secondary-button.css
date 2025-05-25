@@ -1,0 +1,23 @@
+.secondary-button a {
+  color: var(--neutral-tint-2);
+  text-decoration: none;
+  font-family: Pridi;
+  font-weight: 500;
+}
+
+.secondary-button a:hover {
+  text-decoration: dashed underline 1px;
+  text-underline-offset: 2px;
+}
+
+img.icon {
+  color: var(--neutral-tint-2);
+  position: relative;
+  top: 3px;
+  margin-left: 5px;
+}
+
+img.small {
+  width: 16px;
+  height: 16px;
+}
